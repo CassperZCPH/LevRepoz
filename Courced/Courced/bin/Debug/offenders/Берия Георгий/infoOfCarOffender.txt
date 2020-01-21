@@ -1,0 +1,4 @@
+mark: Mercedes-Benz
+model: G 500
+num: 7KKB77 рег.161 rus
+color: Чёрный
