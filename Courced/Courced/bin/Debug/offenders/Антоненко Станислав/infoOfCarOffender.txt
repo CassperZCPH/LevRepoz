@@ -1,4 +1,0 @@
-mark: КамАЗ
-model: 43118
-num: K183HP рег.161 rus
-color: Зелёный

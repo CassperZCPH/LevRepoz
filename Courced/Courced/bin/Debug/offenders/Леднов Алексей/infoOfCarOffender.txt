@@ -1,4 +1,0 @@
-mark: Lada Kalina
-model: Sport
-num: 6OKP66 рег.777 rus
-color: Жёлтая

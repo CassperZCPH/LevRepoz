@@ -1,4 +1,0 @@
-mark: Bombardier
-model: Flexity Swift
-num: E365BC рег.127 rus
-color: Красный

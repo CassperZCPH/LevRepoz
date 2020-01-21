@@ -1,7 +1,0 @@
-FIO: Галумянц Артём Авакович
-phone: 79281249435
-regAddr: г.Сочи пр.Матриса 137 кв.13
-pasData: 60 44 783654
-numDL: 99 89 989769
-dateOfGetDL: 2012 1 7
-drivCateg: Tm

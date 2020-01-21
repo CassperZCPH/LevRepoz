@@ -1,6 +1,0 @@
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.exe.config
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.exe
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.pdb
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.csprojAssemblyReference.cache
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.exe
-C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.pdb
