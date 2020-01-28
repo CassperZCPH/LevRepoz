@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Courced</RootNamespace>
     <AssemblyName>Courced</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,11 +47,13 @@
     <Compile Include="Car.cs" />
     <Compile Include="Entrance.cs" />
     <Compile Include="InputOutputController.cs" />
+    <Compile Include="LoadManager.cs" />
     <Compile Include="Owner.cs" />
     <Compile Include="Offence.cs" />
     <Compile Include="Performer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

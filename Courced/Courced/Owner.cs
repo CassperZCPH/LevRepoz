@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Courced
 {
-    class Owner : IDisposable
+    class Owner : IDisposable, IReadbleObject, IWritableObject
     {
         private string FIO = "";
         private long telephone = 0;
@@ -18,6 +18,32 @@ namespace Courced
         private int quantityOffence;
         private Offence[] offences;
         private string path;
+
+        private Owner(ILoadManager man)
+        {
+            FIO = man.ReadLine().Split(':')[1];
+
+            telephone = Convert.ToInt64(man.ReadLine().Split(':')[1]);
+            registrationAddress = man.ReadLine().Split(':')[1];
+            string[] boof = man.ReadLine().Split(' ');
+            for (int k = 0; k < 3; k++)
+            {
+                passportData[k] = int.Parse(boof[k + 1]);
+            }
+            boof = man.ReadLine().Split(' ');
+            for (int k = 0; k < 3; k++)
+            {
+                numberDL[k] = int.Parse(boof[k + 1]);
+            }
+            dateOfGettingDL = Convert.ToDateTime(man.ReadLine().Split(' ')[1]);
+            driverCategory = man.ReadLine().Split(':')[1];
+            /*
+            car = man.Read(new Car.Loader("infoofCar"));
+            string path = man.Path;
+            
+            quantityOffence = Directory.GetFiles(path).Length - 2;
+            */
+        }
 
         public Owner(string name)
         {
@@ -163,6 +189,35 @@ namespace Courced
             }
             car.Dispose();
             GC.SuppressFinalize(this);
+        }
+
+        public void Write(ISaveManager man)
+        {
+            man.WriteLine($"FIO: {FIO}");
+            man.WriteLine($"phone: {telephone}");
+            man.WriteLine($"regAddr: {registrationAddress}");
+            string boof = null;
+            foreach (int item in passportData)
+            {
+                boof += item + " ";
+            }
+            man.WriteLine($"pasData: {boof}");
+            boof = null;
+            foreach (int item in numberDL)
+            {
+                boof += item + " ";
+            }
+            man.WriteLine($"numDL: {boof}");
+            man.WriteLine($"dateOfGetDL: {dateOfGettingDL}");
+            man.WriteLine($"drivCateg: {driverCategory}");
+        }
+        public class Loader : IReadableObjectLoader
+        {
+            public Loader() { }
+            public IReadbleObject Load(ILoadManager man)
+            {
+                return new Owner(man);
+            }
         }
     }
 }
