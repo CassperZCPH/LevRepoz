@@ -1,0 +1,13 @@
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.exe.config
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.exe
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\bin\Debug\Courced.pdb
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.csprojAssemblyReference.cache
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.exe
+C:\Users\Каспер\Desktop\Курсач\Courced\Courced\obj\Debug\Courced.pdb
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\bin\Debug\Courced.exe.config
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\bin\Debug\Courced.exe
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\bin\Debug\Courced.pdb
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\obj\Debug\Courced.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\obj\Debug\Courced.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\obj\Debug\Courced.exe
+C:\Users\Student\Desktop\LevRepoz-Cource3Proj\Courced\Courced\obj\Debug\Courced.pdb
